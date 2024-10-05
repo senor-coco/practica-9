@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    background-color: rgb(199, 247, 247);
+}
+nav{
+    background-color: rgb(56, 55, 55);
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+article {
+    padding: 40px;
+    text-align: center;
+}
+
+article h1 {
+    color: #343a40;
+    font-size: 2.5rem;
+}
+
+article p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Tabla */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Tarjetas */
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.row-4 {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.row-4:hover {
+    transform: scale(1.05);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card-text {
+    color: #495057;
+}
+
+.card-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer h5 {
+    font-size: 1.25rem;
+    color: #ffc107;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .text-warning {
+    color: red !important;
+}
+
+.container-fluid {
+    max-width: 1140px;
+    margin: auto;
+}
